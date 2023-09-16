@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Personal Portfolio - Bootstrap 5</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body class="bg-light">
+    <!-- navbar start -->
+    <nav class="navbar navbar-light shadow-sm bg-light fixed-top">
+      <div class="container-lg">
+        <a class="navbar-brand text-danger fw-bold fs-4" href="#">P.V.H</a>
+        <div class="dropdown">
+          <button
+            class="btn btn-secondary bg-danger px-3"
+            type="button"
+            id="dropdownMenuButton1"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            aria-haspopup="true"
+          >
+            <i class="fa fa-bars"></i>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#home">Home</a></li>
+            <li><a class="dropdown-item" href="#about">About</a></li>
+            <li><a class="dropdown-item" href="#service">Services</a></li>
+            
+            <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
+            <li><a class="dropdown-item" href="#testimonials">Testimonials</a></li>
+            <li><a class="dropdown-item" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- home section -->
+    <section class="home py-5" id="home">
+      <div class="container-lg">
+        <div class="row min-vh-100 align-content-center align-items-center">
+          <div class="col-md-6">
+            <div class="home-img">
+              <img
+                class="rounded-circle mw-100"
+                src="img/profile.png"
+                alt="profile image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 order-md-first">
+            <div class="home-text">
+              <p class="text-muted mb-1">Hello I'm</p>
+              <h1 class="text-danger text-uppercase fs-1 fw-bold">
+                Web Designer
+              </h1>
+              <h2 class="fs-4">Hoang</h2>
+              <p class="mt-4 text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <a href="#portfolio" class="btn btn-danger px-3 mt-3">My Work</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- home section end-->
+
+    <!-- about section -->
+    <section class="about py-5" id="about">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold md-5">About Me</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="about-text">
+              <h3 class="fs-4 mb-3">
+                Lorem ipsum dolor sit amet, consectetur ad ut labore et dolore
+                magna aliqua
+              </h3>
+              <p class="text-muted">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt molli
+              </p>
+            </div>
+            <div class="row text-center text-uppercase my-3">
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4 class="fs-4 mb-3 fw-bold">100</h4>
+                  <p class="text-muted">Project Completed</p>
+                </div>
+              </div>
+
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4 class="fs-4 mb-3 fw-bold">90</h4>
+                  <p class="text-muted">Happy Clients</p>
+                </div>
+              </div>
+
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4 class="fs-4 mb-3 fw-bold">95</h4>
+                  <p class="text-muted">Positive Reviews</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 d-flex align-items-center">
+                  <a href="#" class="btn btn-danger me-5 px-3">Download CV</a>
+                  <div class="social-links">
+                    <a href="#" class="text-dark me-2"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a href="#" class="text-dark me-2"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a href="#" class="text-dark me-2"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+                    <a href="#" class="text-dark me-2"
+                      ><i class="fab fa-linkedin"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-5 mt-md-0">
+            <div class="skill-item">
+              <h3 class="fs-6">Html</h3>
+              <div class="progress" style="height: 5px">
+                <div
+                  class="progress-bar bg-danger"
+                  role="progressbar"
+                  style="width: 65%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <h3 class="fs-6">Css</h3>
+              <div class="progress" style="height: 5px">
+                <div
+                  class="progress-bar bg-danger"
+                  role="progressbar"
+                  style="width: 75%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <h3 class="fs-6">Javascript</h3>
+              <div class="progress" style="height: 5px">
+                <div
+                  class="progress-bar bg-danger"
+                  role="progressbar"
+                  style="width: 65%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <h3 class="fs-6">Bootstrap</h3>
+              <div class="progress" style="height: 5px">
+                <div
+                  class="progress-bar bg-danger"
+                  role="progressbar"
+                  style="width: 45%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section end-->
+
+    <!-- sevivce section start-->
+    <section class="service py-4" id="service">
+      <div class="container-lg">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">What I Do</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-danger fs-2">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3 class="fs-5 py-2">Web Development</h3>
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, see
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-danger fs-2">
+                <i class="fas fa-lightbulb"></i>
+              </div>
+              <h3 class="fs-5 py-2">Creative Design</h3>
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, see
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-danger fs-2">
+                <i class="fas fa-image"></i>
+              </div>
+              <h3 class="fs-5 py-2">Photoshop</h3>
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, see
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- sevivce section end-->
+
+    <!-- portfolio section start -->
+
+    <section class="portfolio py-4" id="portfolio">
+      <div class="container-lg">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">Latest Works</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="portfolio-item p-4 rounded">
+              <img
+                src="img/portfolio/1.jpg"
+                class="w-100 img-thumbnail"
+                alt="portfolio item"
+              />
+              <h3 class="fs-5 text-capitalize">Team Section</h3>
+              <p class="mb-4">
+                <a href="#" class="text-danger text-decoration-none"
+                  >Live Demo</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="portfolio-item p-4 rounded">
+              <img
+                src="img/portfolio/2.jpg"
+                class="w-100 img-thumbnail"
+                alt="portfolio item"
+              />
+              <h3 class="fs-5 text-capitalize">App Landing Page</h3>
+              <p class="mb-4">
+                <a href="#" class="text-danger text-decoration-none"
+                  >Live Demo</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="portfolio-item p-4 rounded">
+              <img
+                src="img/portfolio/3.jpg"
+                class="w-100 img-thumbnail"
+                alt="portfolio item"
+              />
+              <h3 class="fs-5 text-capitalize">Creative Team Section</h3>
+              <p class="mb-4">
+                <a href="#" class="text-danger text-decoration-none"
+                  >Live Demo</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="portfolio-item p-4 rounded">
+              <img
+                src="img/portfolio/4.jpg"
+                class="w-100 img-thumbnail"
+                alt="portfolio item"
+              />
+              <h3 class="fs-5 text-capitalize">Toggle Pricing Table</h3>
+              <p class="mb-4">
+                <a href="#" class="text-danger text-decoration-none"
+                  >Live Demo</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="portfolio-item p-4 rounded">
+              <img
+                src="img/portfolio/5.jpg"
+                class="w-100 img-thumbnail"
+                alt="portfolio item"
+              />
+              <h3 class="fs-5 text-capitalize">Bootstrap 5 Imgae Gallery</h3>
+              <p class="mb-4">
+                <a href="#" class="text-danger text-decoration-none"
+                  >Live Demo</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="portfolio-item p-4 rounded">
+              <img
+                src="img/portfolio/6.jpg"
+                class="w-100 img-thumbnail"
+                alt="portfolio item"
+              />
+              <h3 class="fs-5 text-capitalize">Filterable Image Gallery</h3>
+              <p class="mb-4">
+                <a href="#" class="text-danger text-decoration-none"
+                  >Live Demo</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio section end -->
+
+    <!-- freelancer section start -->
+
+    <section class="freelancer-availiable py-5 bg-danger">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <p class="text-light fs-5">Do you have any project ?</p>
+            <h2 class="fs-1 text-white mb-4">
+              I'm Availble For Freelancer Projects
+            </h2>
+            <a href="contact" class="btn btn-outline-light">Hire Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- freelancer section end -->
+
+    <!-- testimonials section start -->
+    <section class="testimonials py-5" id="testimonials">
+      <div class="container-lg">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">Testimonials</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-xl-7">
+            <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+              <ol class="carousel-indicators">
+                <li
+                  type="button"
+                  data-bs-target="#carousel1"
+                  data-bs-slide-to="0"
+                  class="active bg-danger"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></li>
+                <li
+                  type="button"
+                  class="bg-danger"
+                  data-bs-target="#carousel1"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></li>
+                <li
+                  type="button"
+                  class="bg-danger"
+                  data-bs-target="#carousel1"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></li>
+              </ol>
+              <div class="carousel-inner">
+                <!-- testi item start -->
+                <div
+                  class="testi-item bg-white shadow-sm rounded p-4 carousel-item active mb-5"
+                >
+                  <div class="test-author-info d-flex align-items-center">
+                    <img
+                      src="img/testimonial/1.jpg"
+                      class="img-thumbnail"
+                      alt="author img"
+                    />
+                    <div class="author ms-3">
+                      <h3 class="fs-6 mb-1">Raj Himachal</h3>
+                      <p class="text-muted">Seo Manager</p>
+                    </div>
+                  </div>
+                  <p class="text-muted mt-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, see
+                  </p>
+                  <div class="rating text-danger">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <!-- testi item end -->
+
+                <!-- testi item start -->
+                <div
+                  class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5"
+                >
+                  <div class="test-author-info d-flex align-items-center">
+                    <img
+                      src="img/testimonial/2.jpg"
+                      class="img-thumbnail"
+                      alt="author img"
+                    />
+                    <div class="author ms-3">
+                      <h3 class="fs-6 mb-1">Raj Himachal</h3>
+                      <p class="text-muted">Seo Manager</p>
+                    </div>
+                  </div>
+                  <p class="text-muted mt-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, see
+                  </p>
+                  <div class="rating text-danger">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <!-- testi item end -->
+                <!-- testi item start -->
+                <div
+                  class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5"
+                >
+                  <div class="test-author-info d-flex align-items-center">
+                    <img
+                      src="img/testimonial/3.jpg"
+                      class="img-thumbnail"
+                      alt="author img"
+                    />
+                    <div class="author ms-3">
+                      <h3 class="fs-6 mb-1">Raj Himachal</h3>
+                      <p class="text-muted">Seo Manager</p>
+                    </div>
+                  </div>
+                  <p class="text-muted mt-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, see
+                  </p>
+                  <div class="rating text-danger">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <!-- testi item end -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonials section end -->
+
+    <!-- contact start -->
+    <div class="contact py-5" id="contact">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">Contact Me</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            <div class="contact-item d-flex mb-3">
+              <div class="icon fs-4 text-danger">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="text ms-3">
+                <h3 class="fs-5">Email</h3>
+                <p class="text-muted m-0">example@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="contact-item d-flex mb-3">
+              <div class="icon fs-4 text-danger">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="text ms-3">
+                <h3 class="fs-5">Phone</h3>
+                <p class="text-muted m-0">0123456789</p>
+              </div>
+            </div>
+
+            <div class="contact-item d-flex mb-3">
+              <div class="icon fs-4 text-danger">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="text ms-3">
+                <h3 class="fs-5">Visit Office</h3>
+                <p class="text-muted m-0">101 Street, ABC</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <form action="">
+              <div class="row">
+                <div class="col-lg-6 mb-4">
+                  <input
+                    type="text"
+                    name=""
+                    placeholder="Your name"
+                    class="form-control form-control-lg fs-6 border-0 shadow-sm"
+                    id=""
+                  />
+                </div>
+                <div class="col-lg-6 mb-4">
+                  <input
+                    type="text"
+                    name=""
+                    placeholder="Your email"
+                    class="form-control form-control-lg fs-6 border-0 shadow-sm"
+                    id=""
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 mb-4">
+                  <input
+                    type="text"
+                    name=""
+                    placeholder="Subject"
+                    class="form-control form-control-lg fs-6 border-0 shadow-sm"
+                    id=""
+                  />
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-12 mb-4">
+                  <textarea
+                    rows="5"
+                    type="text"
+                    name=""
+                    placeholder="Your Message"
+                    class="form-control form-control-lg fs-6 border-0 shadow-sm"
+                    id=""
+                  ></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 mb-4">
+                  <button type="submit" class="btn btn-danger px-3">
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact end -->
+
+    <!-- footer -->
+<footer class="footer border-top py-4">
+<div class="container-lg">
+  <div class="row">
+    <div class="col-lg-12">
+      <p class="m-0 text-center text-muted">&copy; 2023 The WebShala</p>
+    </div>
+  </div>
+</div>
+</footer>
+
+    <!-- end footer -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
